@@ -25,3 +25,5 @@ https://www.learningcontainer.com/mp4-sample-video-files-download/ - Sample Audi
 https://media.w3.org/2015/ - Sample audios and videos
 
 https://any-api.com/ - List of Fake APIs
+
+https://the-api-collective.com/ - Collection of APIs

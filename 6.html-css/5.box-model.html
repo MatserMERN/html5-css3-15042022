@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        p {
+            width: 250px;
+            height: 150px;
+            /* 
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black; 
+            */
+
+            border: 2px solid black;
+            padding: 30px;
+        }
+        .one {
+            margin:80px
+
+        }
+        .two {
+            margin-top:70px;
+            margin-bottom: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        div {
+            width: 250px;
+            height: 150px;
+            border: 2px solid black;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <p class="one">This is paragraph1</p>
+    <p class="two">This is paragraph1</p>
+    <div></div>
+</body>
+</html>

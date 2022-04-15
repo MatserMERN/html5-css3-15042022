@@ -12,13 +12,12 @@ Doctype - This tag specifies the language we write on the page
 
 HTML - This tag signals that from here we are going to write HTML code
 
-HEAD - Here we write meta data for the pages mostaly meant for search engines
+HEAD - Here we write meta data for the pages mostly meant for search engines
 
 Body - This is where content of the page goes (headings, images, hyperlinks)
 
 Title- Title of the webpage
 
-Header Tags - <h1>,<h2>,<h3>,<h4>,<h5>,<h6>
 
 HTML Element - Defined by a start tag and we write some content in between and end tag
 
