@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+
+</head>
+<body>
+    <div id="header"></div>
+    <button type="button" onclick="clickMe()">Click Me</button>
+    <p class="para">This is para one</p>
+    <p class="para">This is para two</p>
+    <script>
+        document.getElementById("header").innerText ="Welcome to HTML DOM"
+        document.getElementById("header").innerHTML ="<h1>Welcome to HTML DOM</h1>"
+
+        console.log(document.getElementsByClassName("para")[0].innerText)
+        console.log(document.getElementsByClassName("para")[1].innerText)
+
+        document.getElementsByClassName("para")[0].style.backgroundColor ="Yellow"
+        
+        function clickMe(){
+            alert('did you click me ?')
+        }
+    </script>
+</body>
+</html>

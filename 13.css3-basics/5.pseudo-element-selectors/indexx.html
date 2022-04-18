@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element Selectors</title>
+    <style>
+        p.one::first-line {
+            color: red;
+            font-variant: small-caps;
+        }
+
+        p.two::first-letter, span::first-line {
+            color: #FF0000;
+            font-size: xx-large;
+        }
+
+        p.three::before {
+            content: "Hey, ";
+        }
+        p.three::after {
+            content: " Welcome to India";
+        }
+        p.four::selection {
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <p class="one">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, repudiandae quod ab impedit accusamus delectus rem quam ut, iusto atque est tenetur modi voluptate incidunt necessitatibus et ipsum pariatur numquam laudantium facilis nemo ad amet. Assumenda expedita quisquam obcaecati molestias, temporibus ullam laudantium, iste excepturi eos porro odio. Temporibus, alias.
+    </p>
+    <p class="two">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, repudiandae quod ab impedit accusamus delectus rem quam ut, iusto atque est tenetur modi voluptate incidunt necessitatibus et ipsum pariatur numquam laudantium facilis nemo ad amet. Assumenda expedita quisquam obcaecati molestias, temporibus ullam laudantium, iste excepturi eos porro odio. Temporibus, alias.
+    </p>
+    <span>Pseduo Element doesn't work with inline elements</span>
+    <p class="three">Scott Desatnick.</p>
+    <p class="four">Selected text wil have different color and background</p>
+</body>
+</html>
